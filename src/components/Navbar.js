@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <header>
       <div>millamzy</div>
-      <div>home</div>
+      <div><a href='/'>Home</a></div>
     </header>
   )
 }

@@ -32,7 +32,7 @@ h1{
   /* margin-left: -180px; */
 }
 
-button {
+.button2 {
   background-color: #0069d9;
   width: 200px;
   color: #fff;
@@ -43,8 +43,23 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button2:hover {
   background-color: #0053a6;
+}
+
+.button1 {
+  background-color: #020c17;
+  width: 200px;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: #122333;
 }
 
 
@@ -64,6 +79,12 @@ header{
 
 .box{
   margin-left: -100px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+
 }
 
 

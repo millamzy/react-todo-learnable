@@ -32,7 +32,7 @@ const TodoList = () => {
         value={newTodo}
         onChange={(e) => setNewTodo(e.target.value)}
       />
-      <button onClick={handleAddTodo}>Add</button>
+      <button className="button2" onClick={handleAddTodo}>Add</button>
       <ul>
         {todos.map((todo, index) => (
           <li
@@ -56,7 +56,7 @@ const TodoList = () => {
                 {todo.text}
               </span>
             </div>
-            <button
+            <button className="button1"
               style={{ marginTop: "5px", marginBottom: "5px" }}
               onClick={() => handleDeleteTodo(index)}
             >
