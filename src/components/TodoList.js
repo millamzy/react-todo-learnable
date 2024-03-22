@@ -27,7 +27,7 @@ const TodoList = () => {
   return (
     <div className="top">
       <h1>To-Do List</h1>
-      <input
+      <input 
         type="text"
         value={newTodo}
         onChange={(e) => setNewTodo(e.target.value)}
@@ -47,7 +47,7 @@ const TodoList = () => {
                 checked={todo.checked}
                 onChange={() => handleToggleTodo(index)}
               />
-              <span
+              <span 
                 style={{
                   marginRight: "10px",
                   textDecoration: todo.checked ? "line-through" : "none",
